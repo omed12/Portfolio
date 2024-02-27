@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <!-- TODO: Replace this with your title -->
+    <title>Oscar's Open House</title>  
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- TODO: Paste Navbar code and customize links -->  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-house-door"></i>
+</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="color: #ffffff;" id="navbar" aria-label="Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mission-section">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-section">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section"">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section -->
+  	<section class="text-center text-light py-5" id="hero-section">
+      <img class="circular--square" src="img/IMG_0450.jpg" alt="Oscar" width="200" height="200" style="border-radius: 50%; border: 2px solid #ffffff;"/>
+      <h1 class="display-1">Oscar Medina</h1>
+      <h3 class="lead">Don't be afraid to be yourself.</h3>
+  	</section>
+    
+  	<!-- Mission/Meet-me section -->
+    <section class="py-5" id="mission-section">
+      <h1 class="text-center">My Mission</h1>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+          <div class="col">
+            
+            <!-- Carousel -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> 
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/plant.jpeg" class="d-block w-100 custom" id="carousel-item" alt="plant">
+                  <div class="carousel-caption d-sm-block d-md-block">
+                    <p>What we do now will predict the future. We are the future.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/trash.jpeg" class="d-block w-100" id="carousel-item" alt="trash">
+                  <div class="carousel-caption d-sm-block d-md-block">
+                    <p>Do nothing this is what it will look like.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/future.jpeg" class="d-block w-100" id="carousel-item" alt="future">
+                  <div class="carousel-caption d-sm-block d-md-block">
+                    <p>Act now we will have a greener future.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col">My mission is teach people the importance of taking care of the environment and give them a new way to view the environment. I am doing this mainly for the future generations and improve their way of living. I want to make a difference in the world and make a positive impact on the environment.</div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Skills section -->
+    <section id="skills-section">
+      <h1>Skills</h1>
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col">
+            <img src="img/watering-can-4414308_1280.jpg" alt="watering-can" width="200" height="200">
+            <h3>Green thumb</h3>
+            <p1>I am a green thumb person. I love nature and the outdoors. I love gardening and planting trees. </p1>
+          </div>
+          <div class="col">
+            <img src="img/team-spirit-2447163_1280.jpg" class="team-spirit-2447163_1280" alt="team" width="150" height="200">
+            <h3>Teamwork</h3>
+            <p2>I am a team player. I like to work with others and help them out. I like to work with others and help them out.</p2>
+          </div>
+          <div class="col">
+            <img src="img/plans-1867745_1280.jpg" class="plans-1867745_1280" alt="plans" width="150" height="2000">
+            <h3>UX Design</h3>
+            <p3>I am a UX designer. I like to create aesthetic designs and make them look good. I like to create aesthetic designs and make them look good.</p3>
+          </div>
+          <div class="col">
+            <img src="img/building-1011876_1280.jpg" class="building-1011876_1280" alt="building" width="150" height="200">
+            <h3>Microsoft Office</h3>
+            <p4>I am a Microsoft Office person. I like to use Microsoft Office to do my work. I like to use Microsoft Office to do my work.</p4>
+          </div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Contact Section -->
+    <section id="contact-section">
+      <h1>Contact</h1>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
+          <div class="col">
+            <i class="bi bi-linkedin" style="font-size: 3rem;" id="linkedin" aria-hidden="true" href="https://www.linkedin.com/in/oscar-medina-b6b3b8223" target="_blank" rel="noopener noreferrer"></i>
+            <h3>Linkedin</h3>
+            <p1></p1>
+          </div>
+          <div class="col">
+            <i class="bi bi-envelope-fill" style="font-size: 3rem;" id="email" aria-hidden="true" href="om877479@gmail.com" target="_blank" rel="noopener noreferrer"></i>
+            <h3>Email</h3>
+            <p2></p2>
+          </div>
+          <div class="col">
+            <i class="bi bi-chat-dots-fill" style="font-size: 3rem;" id="phone" aria-hidden="true"></i>
+            <h3>Message</h3>
+            <p3></p3>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Footer section -->
+    <section id="footer-section">
+      <div class="footer">
+        <p><i class="bi bi-c-circle"></i>Oscar Medina 2024
+</p>
+      </div>
+    </section>
+  
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+  	-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>

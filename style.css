@@ -1,0 +1,158 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body {
+  background-color: darkgray;
+}
+.navbar {
+  background-color: #212529;
+}
+.navbar-brand {
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #212529;
+  background-color: white;
+}
+.navbar-toggler {
+  background-color: #2f6535;
+}
+.navbar-toggler:hover {
+  background-color: #212529;
+}
+
+#hero-section {
+  background-image: url(img/leaves-318743_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: clamp(100px, 20vh, 200px) 0;
+  margin-top: 15px;
+}
+.circular--square {
+  border-radius: 50%;
+  border-color: #427fe0;
+  border-width: 10px;
+  border-style: solid;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  margin: auto;
+}
+h1 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: clamp(2em, 5vw, 4em);
+  padding-top: clamp(20px, 10vh, 30px);
+  padding-bottom: clamp(20px, 10vh, 30px);
+  text-align: center;
+  text-shadow: 2px 2px #427fe0;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
+#mission-section {
+  background-color: #c2e5c2;
+  color: black;
+  padding: clamp(50px, 20vh, 100px) 0;
+  margin-top: 15px;
+}
+.col {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.d-block {
+  height: 25%;
+  width: 25%;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+}
+#carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 30vh;
+  overflow: hidden;
+}
+#skills-section {
+  background-color: #d7f4d7;
+  color: black;
+  padding: clamp(10px, 20vh, 100px) 0;
+  margin-top: 15px;
+  position: center;
+}
+.bi {
+  font-size: clamp(1.5em, 3vw, 2em);
+  padding: clamp(20px, 20vh, 30px);
+  color: darkgreen;
+}
+.p1 {
+  font-size: clamp(1.5em, 3vw, 2em);
+  padding: clamp(50px, 20vh, 30px);
+  color: darkgreen;
+}
+.team-spirit-2447163_1280 {
+  height: 50%;
+  width: 50%;
+}
+.team-spirit-2447163_1280 img {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.p2 {
+  font-size: clamp(1.5em, 3vw, 2em);
+  padding: clamp(50px, 30vh, 40px);
+  color: darkgreen;
+}
+.p3 {
+  font-size: clamp(1.5em, 3vw, 2em);
+  padding: clamp(50px, 30vh, 30px);
+  color: darkgreen;
+}
+.p4 {
+  font-size: clamp(1.5em, 3vw, 2em);
+  padding: clamp(50px, 20vh, 30px);
+  color: darkgreen;
+}
+.col img {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+#contact-section {
+  background-color: #c2e5c2;
+  color: black;
+  padding: clamp(50px, 20vh, 100px) 0;
+  margin-top: 15px;
+  position: center;
+  text-align: center;
+}
+.bi:hover {
+  color: lightgreen;
+}
+#footer-section {
+  background-color: #c2e5c2;
+  color: black;
+  padding: clamp(10px, 15vh, 40px) 0;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
